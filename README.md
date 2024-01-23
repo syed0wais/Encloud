@@ -1,6 +1,5 @@
 # Decentralized Image Upload and Sharing
 
-T
 
 ## Features
 
