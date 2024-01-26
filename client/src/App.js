@@ -6,6 +6,7 @@ import Display from "./components/Display";
 import Modal from "./components/Modal";
 import "./App.css";
 
+
 function App() {
   const [account, setAccount] = useState("");
   const [contract, setContract] = useState(null);
@@ -28,7 +29,7 @@ function App() {
         const signer = provider.getSigner();
         const address = await signer.getAddress();
         setAccount(address);
-        let contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";   //blockchain address
+        let contractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";   //blockchain address
 
         const contract = new ethers.Contract(
           contractAddress,
@@ -56,7 +57,7 @@ function App() {
       )}
 
       <div className="App">
-        <h1 style={{ color: "white" }}>Gdrive 3.0</h1>
+        <h1 style={{ color: "white" }}>Encloud</h1>
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>

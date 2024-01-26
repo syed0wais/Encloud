@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  
+  
 }
 
 .App-logo {
@@ -42,10 +44,19 @@ html {
 
 body {
   margin: 0;
+  
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
 }
 
-.bg {
-  animation: slide 3s ease-in-out infinite alternate;
+
+
+.bg {   
+  /* animation: slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
   bottom: 0;
   left: -50%;
@@ -53,7 +64,7 @@ body {
   position: fixed;
   right: -50%;
   top: 0;
-  z-index: -1;
+  z-index: -1; */
 }
 
 .bg2 {
@@ -78,9 +89,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-h1 {
-  font-family: monospace;
-}
+
 
 @keyframes slide {
   0% {

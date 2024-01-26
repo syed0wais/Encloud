@@ -84,3 +84,5 @@ Once the setup and configuration are complete, follow these steps to utilize the
 
 These steps will ensure smooth navigation and utilization of the system while maintaining access control and avoiding potential errors.
 
+## Deploying on SEPOLIA Network
+```npx hardhat run scripts/deploy.js --network sepolia```
