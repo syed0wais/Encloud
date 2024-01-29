@@ -30,13 +30,13 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/decentralized-image-upload.git
+   git clone https://github.com/syed0wais/encloud
    ```
 2. Install dependencies for the hardhat:
 
    ```bash
    # Navigate to the root directory
-   cd Dgdrive3.0
+   cd Encloud
    # Install hardhat dependencies
    npm install
    ```
