@@ -1,5 +1,15 @@
 # Decentralized Image Upload and Sharing
 
+## Features
+![chrome_9Bt69t8bJR](https://github.com/syed0wais/Encloud/assets/87197237/2028c8f5-8107-4d21-aca8-d7f352e24562)
+![chrome_z8iC8GY6BO](https://github.com/syed0wais/Encloud/assets/87197237/030d2c69-12f0-4d41-9905-be369e77cfc4)
+
+![chrome_Pu5MAZF7df](https://github.com/syed0wais/Encloud/assets/87197237/51f30022-2841-4f78-8a81-ea9995648059)
+
+![chrome_WjuTwd5b8i](https://github.com/syed0wais/Encloud/assets/87197237/03529f2f-1f4f-4285-ab7b-72894f76526f)
+
+
+
 
 ## Features
 
