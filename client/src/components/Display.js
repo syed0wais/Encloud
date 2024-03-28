@@ -1,5 +1,8 @@
-import { useState } from "react";
+
 import "./Display.css";
+import { useState } from "react";
+
+
 const Display = ({ contract, account }) => {
   const [data, setData] = useState("");
   const getdata = async () => {
