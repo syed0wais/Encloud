@@ -59,12 +59,13 @@ function App() {
 
       <div className="App">
         <h1 style={{ color: "white" }}>Encloud</h1>
+        <h3 style={{color:"white"}}>Medical Record Storage Network</h3>
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
 
         <p style={{ color: "white" }}>
-          Account : {account ? account : "Not connected"}
+          Connected Account : {account ? account : "Not connected"}
         </p>
         <FileUpload
           account={account}
