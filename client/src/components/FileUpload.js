@@ -1,10 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
 import "./FileUpload.css";
-
-// import dotenv from "dotenv";
-// dotenv.config({path: './.env'});  //new way of importing dotenv
-
 const FileUpload = ({ contract, account, provider }) => {
   const [file, setFile] = useState(null);
   const [fileName, setFileName] = useState("No image selected");
@@ -26,8 +22,7 @@ const FileUpload = ({ contract, account, provider }) => {
           },
         });
         const ImgHash = `https://gateway.pinata.cloud/ipfs/${resFile.data.IpfsHash}`;
-        // console.log(ImgHash);
-        contract.add(account,ImgHash);
+        contract.add(account, ImgHash);
         alert("Successfully Image Uploaded");
         setFileName("No image selected");
         setFile(null);
@@ -39,7 +34,6 @@ const FileUpload = ({ contract, account, provider }) => {
     setFileName("No image selected");
     setFile(null);
   };
-
   const retrieveFile = (e) => {
     const data = e.target.files[0]; //files array of files object
     // console.log(data);
